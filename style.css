@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  border: 0;
+}
+
+body{
+  background-color: #010318;
+  font-family: 'Major Mono Display';
+}
+
+header h1{
+  text-align: center;
+  font-family: 'Major Mono Display';
+  font-size: 14em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  animation: neon 5s alternate infinite ease-in-out;
+}
+
+@keyframes neon{
+  from{
+      text-shadow: none;
+  }
+  to{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #010318, 0 0 70px #010318, 0 0 80px #010318, 0 0 100px #010318, 0 0 150px #010318;
+  }
+}
+
+#nota{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 6em;
+  position: relative;
+  font-weight: bold;
+  width: 100%;
+}
+
+.black{
+  width: 4em;
+  height: 10em;
+  background-color: rgb(0, 0, 0);
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+  z-index: 3;
+  position: relative;
+  color: white;
+  margin: -2em;
+  margin-top: 2px;
+}
+
+.white{
+  width: 5em;
+  height: 20em;
+  background-color: #EBEBEB;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-end;
+  margin: 2px;
+}
+
+.white.active{
+  background: linear-gradient(93.28deg, #FFBB0C -10.24%, #E7B32E 22.27%, rgba(255, 248, 231, 0.92) 53.31%, rgba(255, 185, 4, 0.505208) 98.12%, #FFFFFF 131.65%);
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFBB0C, 0 0 70px #FFBB0C, 0 0 80px #FFBB0C, 0 0 100px #FFBB0C, 0 0 150px #FFBB0C;
+}
+.black.active{
+    background-color: #500000;
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #500000, 0 0 70px #500000, 0 0 80px #500000, 0 0 100px #500000, 0 0 150px #500000;
+}
+
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.notas-1{
+  width: 5em;
+  height: 5em;
+  background-color: white;
+  margin-right: 2em;
+  margin-left: 2em;
+  border-radius: 1em;
+}
+#title{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  animation: neon 5s alternate infinite ease-in-out;
+}
+.notas-1:hover{
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #b4b4b4, 0 0 70px #b4b4b4, 0 0 80px #b4b4b4, 0 0 100px #b4b4b4, 0 0 150px #b4b4b4;
+}

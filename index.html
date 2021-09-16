@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>T</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>piAno</h1>
+    </header>
+
+    <div id="nota">
+    <div data-note="C" id="key-white" class="key white">
+      <span>a</span>
+    </div>
+    <div data-note="Db" id="key-black" class="key black">
+      <span>w</span>
+    </div>
+    <div  data-note="D" id="key-white" class="key white">
+      <span>s</span>
+    </div>
+    <div data-note="Eb" id="key-black" class="key black">
+      <span>e</span>
+    </div>
+    <div data-note="E" id="key-white" class="key white">
+      <span>d</span>
+    </div>
+    <div data-note="F" id="key-white" class="key white">
+      <span>f</span>
+    </div>
+    <div data-note="Gb" id="key-black" class="key black">
+      <span>t</span>
+    </div>
+    <div data-note="G" id="key-white" class="key white">
+      <span>g</span>
+    </div>
+    <div data-note="Ab" id="key-black" class="key black">
+      <span>y</span>
+    </div>
+    <div data-note="A" id="key-white" class="key white">
+      <span>h</span>
+    </div>
+    <div data-note="Bb" id="key-black" class="key black">
+      <span>u</span>
+    </div>
+    <div data-note="B" id="key-white" class="key white">
+      <span>j</span>
+    </div>
+    <!-- <div data-note="E" id="key-white" class="key white">
+      <span>k</span>
+    </div>
+    <div data-note="E" id="key-black" class="key black">
+      <span>o</span>
+    </div>
+    <div data-note="E" id="key-white" class="key white">
+      <span>l</span>
+    </div>
+    <div data-note="E" id="key-black" class="key black">
+      <span>p</span>
+    </div>
+    <div data-note="E" id="key-white" class="key white">
+      <span>ç</span>
+    </div> -->
+
+    <audio id="C" src="notes/C.mp3"></audio>
+    <audio id="Db" src="notes/Db.mp3"></audio>
+    <audio id="D" src="notes/D.mp3"></audio>
+    <audio id="Eb" src="notes/Eb.mp3"></audio>
+    <audio id="E" src="notes/E.mp3"></audio>
+    <audio id="F" src="notes/F.mp3"></audio>
+    <audio id="Gb" src="notes/Gb.mp3"></audio>
+    <audio id="G" src="notes/G.mp3"></audio>
+    <audio id="Ab" src="notes/Ab.mp3"></audio>
+    <audio id="A" src="notes/A.mp3"></audio>
+    <audio id="Bb" src="notes/Bb.mp3"></audio>
+    <audio id="B" src="notes/B.mp3"></audio>
+  </div>
+  <div id="title"><h1>Chef's choice</h1></div>
+  <div id="buttons">
+    <!-- <div class="notas-1" onclick="sound1()"></div>
+    <div class="notas-1" onclick="sound2()"></div> -->
+    <div class="notas-1" onclick="sound3()"></div>
+    <div class="notas-1" onclick="sound4()"></div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+  <script src="musicas.js"></script>
+</html>
